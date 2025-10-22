@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ======== GENERAL PAGE STYLE ======== */
 body {
     font-family: 'Arial', sans-serif;
@@ -131,4 +132,139 @@ body {
     padding: 15px 0;
     font-size: 0.9rem;
   }
+=======
+/* ======== GENERAL PAGE STYLE ======== */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* ======== HEADER ======== */
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ======== PROJECTS SECTION ======== */
+  #projects {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #projects h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+  
+  .project {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .project img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .project-info h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  /* ======== CONTACT SECTION ======== */
+  #contact {
+    background: #f0f0f0;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: auto;
+    text-align: left;
+  }
+  
+  form label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  /* ======== FOOTER ======== */
+  footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+  }
+>>>>>>> 4680b95951acca5b40e19521c0b582c9ef365d54
   
